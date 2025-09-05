@@ -26,6 +26,7 @@ This project provides a responsive and SEO-friendly frontend for an online store
 
 ## 📂 Folder Structure
 
+```
 nextjs-ecommerce/
 ├── src/
 │ ├── app/ # Next.js App Router pages/components
