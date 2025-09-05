@@ -24,14 +24,15 @@ This project provides a responsive and SEO-friendly frontend for an online store
 ---
 
 ## 📂 Folder Structure
-ecommerce-frontend/
-├── app/ # Next.js App Router pages/components
-├── components/ # Reusable UI components
-├── public/ # Images, icons, assets
-├── styles/ # TailwindCSS + global styles
-├── utils/ # Helper functions
+nextjs-ecommerce/
+├── src/app/             # Next.js App Router pages/components
+├── src/components/      # Reusable UI components
+├── public/              # Images, icons, assets
+├── src/styles/          # TailwindCSS + global styles
+├── src/lib/             # Helper functions
 ├── package.json
 └── README.md
+
 
 
 ---
@@ -39,9 +40,8 @@ ecommerce-frontend/
 ## ⚡ Getting Started
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/nextjs-ecommerce-frontend.git
-cd nextjs-ecommerce-frontend
-
+git clone https://github.com/devjanar/nextjs-ecommerce.git
+cd nextjs-ecommerce
 npm install
 npm run dev
 http://localhost:3000
