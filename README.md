@@ -12,6 +12,7 @@ This project provides a responsive and SEO-friendly frontend for an online store
 - 🌍 **SEO Optimized**
 - 🎨 **Styled with TailwindCSS**
 - ⚡ **Modular & Clean Architecture**
+- 📱 **Responsive Design** (mobile, tablet, desktop)
 
 ---
 
@@ -24,15 +25,16 @@ This project provides a responsive and SEO-friendly frontend for an online store
 ---
 
 ## 📂 Folder Structure
+
 nextjs-ecommerce/
-├── src/app/             # Next.js App Router pages/components
-├── src/components/      # Reusable UI components
-├── public/              # Images, icons, assets
-├── src/styles/          # TailwindCSS + global styles
-├── src/lib/             # Helper functions
+├── src/
+│ ├── app/ # Next.js App Router pages/components
+│ ├── components/ # Reusable UI components
+│ ├── styles/ # TailwindCSS + global styles
+│ └── lib/ # Helper functions
+├── public/ # Images, icons, assets
 ├── package.json
 └── README.md
-
 
 
 ---
@@ -42,7 +44,23 @@ nextjs-ecommerce/
 ```bash
 git clone https://github.com/devjanar/nextjs-ecommerce.git
 cd nextjs-ecommerce
+
+    Install dependencies
+
 npm install
+
+    Run the development server
+
 npm run dev
+
+    Open the app in your browser
+
 http://localhost:3000
 
+🎯 Goals
+
+    Provide a ready-to-use eCommerce frontend template
+
+    Clean, modular code for easy customization
+
+    Designed for integration with any backend (REST API, GraphQL, or custom)
