@@ -37,6 +37,7 @@ nextjs-ecommerce/
 ├── package.json
 └── README.md
 
+```
 
 ---
 
